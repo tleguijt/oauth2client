@@ -32,8 +32,8 @@ import time
 import unittest
 
 import mock
-import six
-from six.moves import urllib
+from django.utils import six
+from django.utils.six.moves import urllib
 
 from .http_mock import HttpMock
 from .http_mock import HttpMockSequence

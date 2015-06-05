@@ -19,7 +19,7 @@ This credentials class is implemented on top of rsa library.
 
 import base64
 import json
-import six
+from django.utils import six
 import time
 
 from pyasn1.codec.ber import decoder

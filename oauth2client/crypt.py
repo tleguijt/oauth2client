@@ -23,7 +23,7 @@ import os
 import sys
 import time
 
-import six
+from django.utils import six
 
 
 CLOCK_SKEW_SECS = 300  # 5 minutes in seconds

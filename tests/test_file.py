@@ -32,7 +32,7 @@ import tempfile
 import unittest
 
 from .http_mock import HttpMockSequence
-import six
+from django.utils import six
 
 from oauth2client import file
 from oauth2client import locked_file
@@ -40,7 +40,7 @@ from oauth2client import multistore_file
 from oauth2client import util
 from oauth2client.client import AccessTokenCredentials
 from oauth2client.client import OAuth2Credentials
-from six.moves import http_client
+from django.utils.six.moves import http_client
 try:
   # Python2
   from future_builtins import oct

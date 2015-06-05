@@ -31,8 +31,8 @@ import sys
 import tempfile
 import time
 import shutil
-import six
-from six.moves import urllib
+from django.utils import six
+from django.utils.six.moves import urllib
 
 import httplib2
 from oauth2client import clientsecrets

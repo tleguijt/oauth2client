@@ -2,7 +2,7 @@
 
 import unittest
 from oauth2client import tools
-from six.moves.urllib import request
+from django.utils.six.moves.urllib import request
 import threading
 
 class TestClientRedirectServer(unittest.TestCase):

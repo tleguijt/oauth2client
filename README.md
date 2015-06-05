@@ -2,6 +2,12 @@
 
 [![Coverage Status](https://img.shields.io/coveralls/google/oauth2client.svg)](https://coveralls.io/r/google/oauth2client?branch=master)
 
+[Fork info]
+This fork has been adjusted to play well with the Django modifications on the six libarary.
+Some imports aren't available when running in Django, since Django modifies the import paths of the six library
+
+[Description]
+
 This is a client library for accessing resources protected by OAuth 2.0.
 
 [Full documentation](http://google.github.io/oauth2client/)

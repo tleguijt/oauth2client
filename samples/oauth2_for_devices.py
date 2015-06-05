@@ -3,7 +3,7 @@
 # See:  https://developers.google.com/accounts/docs/OAuth2ForDevices
 
 import httplib2
-from six.moves import input
+from django.utils.six.moves import input
 from oauth2client.client import OAuth2WebServerFlow
 from googleapiclient.discovery import build
 

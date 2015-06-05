@@ -25,7 +25,7 @@ import base64
 import hmac
 import time
 
-import six
+from django.utils import six
 from oauth2client import util
 
 

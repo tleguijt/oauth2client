@@ -21,7 +21,7 @@ an OAuth 2.0 protected service.
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
 import json
-import six
+from django.utils import six
 
 
 # Properties that make a client_secrets.json file valid.

@@ -28,9 +28,9 @@ import logging
 import socket
 import sys
 
-from six.moves import BaseHTTPServer
-from six.moves import urllib
-from six.moves import input
+from django.utils.six.moves import BaseHTTPServer
+from django.utils.six.moves import urllib
+from django.utils.six.moves import input
 
 from oauth2client import client
 from oauth2client import util

@@ -23,7 +23,7 @@ import sys
 import webbrowser
 
 import gflags
-from six.moves import input
+from django.utils.six.moves import input
 
 from oauth2client import client
 from oauth2client import util

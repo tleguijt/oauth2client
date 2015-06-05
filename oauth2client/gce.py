@@ -21,7 +21,7 @@ __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
 import json
 import logging
-from six.moves import urllib
+from django.utils.six.moves import urllib
 
 from oauth2client import util
 from oauth2client.client import AccessTokenRefreshError
